@@ -10,5 +10,4 @@ public static class EventManager
     public static void OnTimerStop() => TimerStop?.Invoke();
     public static void OnTimerUpdate(float value) => TimerUpdate?.Invoke(value);
 }
-
 //video de referencia: https://www.youtube.com/watch?v=DH2ZxwRBwwg
