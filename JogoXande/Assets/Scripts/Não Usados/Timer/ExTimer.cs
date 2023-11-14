@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using TMPro;
 
-public class Timer : MonoBehaviour
+public class ExTimer : MonoBehaviour
 {
     private TMP_Text _timerText;
     enum TimerType { Countdown, Stopwatch }
@@ -19,16 +19,16 @@ public class Timer : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.TimerStart += EventManager.OnTimerStart;
-        EventManager.TimerStop += EventManager.OnTimerStop;
-        EventManager.TimerUpdate += EventManager.OnTimerUpdate;
+        ExEventManager.TimerStart += ExEventManager.OnTimerStart;
+        ExEventManager.TimerStop += ExEventManager.OnTimerStop;
+        ExEventManager.TimerUpdate += ExEventManager.OnTimerUpdate;
     }
 
     private void OnDisable()
     {
-        EventManager.TimerStart -= EventManagerOnTimerStart;
-        EventManager.TimerStop -= EventManagerOnTimerStop;
-        EventManager.TimerUpdate -= EventManagerOnTimerUpdate;
+        ExEventManager.TimerStart -= EventManagerOnTimerStart;
+        ExEventManager.TimerStop -= EventManagerOnTimerStop;
+        ExEventManager.TimerUpdate -= EventManagerOnTimerUpdate;
     }
 
     private void EventManagerOnTimerStart() => _isRunning = true;
@@ -40,7 +40,7 @@ public class Timer : MonoBehaviour
         if (!_isRunning) return;
         if (timerType == TimerType.Countdown && timeToDisplay < 0.0f)
         {
-            EventManager.OnTimerStop();
+            ExEventManager.OnTimerStop();
             return;
         }
 

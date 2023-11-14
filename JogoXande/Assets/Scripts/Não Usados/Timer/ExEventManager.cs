@@ -1,6 +1,6 @@
 using UnityEngine.Events;
 
-public static class EventManager
+public static class ExEventManager
 {
     public static event UnityAction TimerStart;
     public static event UnityAction TimerStop;
