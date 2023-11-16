@@ -6,21 +6,22 @@ using System;
 
 public class timerBruno : MonoBehaviour
 {
-    static float timer = 180;
+    static float timer = 10;
     TimeSpan timerSpan = TimeSpan.FromSeconds(timer);
     public TextMeshProUGUI textMeshProUGUI;
+    public GameObject derrotaPainel;
+
     
     void Update()
     {
         timer -= Time.deltaTime;
         timerSpan = TimeSpan.FromSeconds(timer);
         if (timer < 0) {
-            print("boom");
-            timer = 180;
+            derrotaPainel.SetActive(true);
+            Time.timeScale = 0;
+
         }
         textMeshProUGUI.text = timerSpan.ToString(@"mm\:ss\:ff");
-
-
     }
 }
 // https://stackoverflow.com/questions/463642/how-can-i-convert-seconds-into-hourminutessecondsmilliseconds-time
