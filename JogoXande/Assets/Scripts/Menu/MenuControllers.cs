@@ -24,5 +24,6 @@ public class MenuControllers : MonoBehaviour
     public void QuitBTN()
     {
         Application.Quit();
+        Debug.Log("Saiu");
     }
 }

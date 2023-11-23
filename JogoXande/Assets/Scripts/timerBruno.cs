@@ -6,7 +6,7 @@ using System;
 
 public class timerBruno : MonoBehaviour
 {
-    static float timer = 10;
+    static float timer = 300;
     TimeSpan timerSpan = TimeSpan.FromSeconds(timer);
     public TextMeshProUGUI textMeshProUGUI;
     public GameObject derrotaPainel;
