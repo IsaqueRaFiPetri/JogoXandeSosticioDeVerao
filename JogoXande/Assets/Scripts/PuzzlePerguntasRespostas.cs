@@ -28,7 +28,7 @@ public class PuzzlePerguntasRespostas : MonoBehaviour
 
     public void Btnerrado()
     {
-        pergunta1.SetActive(true);
         perguntaAtual.SetActive(false);
+        pergunta1.SetActive(true);
     }
 }

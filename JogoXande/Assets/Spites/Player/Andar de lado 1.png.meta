@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 599e17839dfe8d14db337423ebbf8ff1
+guid: 25e46a5e23b79ff48b660e768adf5c92
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_0
+      name: Andar de lado 1_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 37
-        width: 21
-        height: 36
+        x: 159
+        y: 111
+        width: 63
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c92a69483587ff40a886c3b0769027a
-      internalID: 187891333
+      spriteID: bde3189e2968fd847b02fa45cb914b38
+      internalID: 55241146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_1
+      name: Andar de lado 1_1
       rect:
         serializedVersion: 2
-        x: 186
-        y: 37
-        width: 21
-        height: 37
+        x: 549
+        y: 111
+        width: 63
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a295e94ba5d550049a661f6a64849ae0
-      internalID: -228078277
+      spriteID: 38a24fe6bf7a1db4982471a9f787a41f
+      internalID: 1095608478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_2
+      name: Andar de lado 1_2
       rect:
         serializedVersion: 2
-        x: 316
-        y: 37
-        width: 21
-        height: 36
+        x: 939
+        y: 111
+        width: 63
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 033c1a0f6e64d6141bb5f32b02d9d967
-      internalID: 1409502659
+      spriteID: 2a71c9898a5cd82499c3961d5a43e971
+      internalID: -785810062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_3
+      name: Andar de lado 1_3
       rect:
         serializedVersion: 2
-        x: 446
-        y: 37
-        width: 21
-        height: 35
+        x: 1329
+        y: 111
+        width: 63
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 741283b4b932fd045a4b44459fcd5f8b
-      internalID: 1904215960
+      spriteID: 3afc8665425d3414bb46b0a8692c263a
+      internalID: 1481249562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_4
+      name: Andar de lado 1_4
       rect:
         serializedVersion: 2
-        x: 576
-        y: 37
-        width: 21
-        height: 36
+        x: 1719
+        y: 111
+        width: 63
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5a4cc48bce2e0b4f88e9a45405f78c6
-      internalID: -1317119925
+      spriteID: 88955d848c4a5d24aa65b6723a2e618a
+      internalID: -1695959263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_5
+      name: Andar de lado 1_5
       rect:
         serializedVersion: 2
-        x: 706
-        y: 37
-        width: 21
-        height: 37
+        x: 2109
+        y: 111
+        width: 63
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 185a91251eeb707409d0de96aaaf2ab8
-      internalID: -391527722
+      spriteID: 0c5f2378bb9cdb14e805bfdb78f2ff71
+      internalID: 665125754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_6
+      name: Andar de lado 1_6
       rect:
         serializedVersion: 2
-        x: 836
-        y: 37
-        width: 21
-        height: 36
+        x: 2499
+        y: 111
+        width: 63
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13ef6fb537688dd43b6d95c1999fed69
-      internalID: 1015018200
+      spriteID: 0a92acb24a31b2348bd81cb0d88b9cb2
+      internalID: -5513967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANDAR DE LADO 2_7
+      name: Andar de lado 1_7
       rect:
         serializedVersion: 2
-        x: 966
-        y: 37
-        width: 21
-        height: 35
+        x: 2889
+        y: 111
+        width: 63
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d962bd21afce22f4bb18c0a0a5ec5e2e
-      internalID: -634147658
+      spriteID: f8b19dcc4a7055e46b14243b52a124b9
+      internalID: -910820084
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ANDAR DE LADO 2_0: 187891333
-      ANDAR DE LADO 2_2: 1409502659
-      ANDAR DE LADO 2_1: -228078277
-      ANDAR DE LADO 2_7: -634147658
-      ANDAR DE LADO 2_4: -1317119925
-      ANDAR DE LADO 2_5: -391527722
-      ANDAR DE LADO 2_6: 1015018200
-      ANDAR DE LADO 2_3: 1904215960
+      Andar de lado 1_6: -5513967
+      Andar de lado 1_2: -785810062
+      Andar de lado 1_0: 55241146
+      Andar de lado 1_5: 665125754
+      Andar de lado 1_3: 1481249562
+      Andar de lado 1_7: -910820084
+      Andar de lado 1_4: -1695959263
+      Andar de lado 1_1: 1095608478
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
