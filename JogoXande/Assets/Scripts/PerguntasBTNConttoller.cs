@@ -9,17 +9,7 @@ public class PerguntasBTNConttoller : MonoBehaviour
     public GameObject pergunta1; // The name of the scene you want to load
     public GameObject perguntaAtual;
     public GameObject painelDasPerguntas;
-    [SerializeField] private Button CorrectButton;
 
-    void Awake()
-    {
-        CorrectButton.onClick.AddListener(OnCorrectButtonClick);
-    }
-
-    void OnCorrectButtonClick()
-    {
-        Debug.Log("Acertou");
-    }
     public void BTNCerto()
     {
         proximaPergunta.SetActive(true);
