@@ -21,8 +21,9 @@ public class timerBruno : MonoBehaviour
             Time.timeScale = 0;
 
         }
-        textMeshProUGUI.text = timerSpan.ToString(@"mm\:ss\:ff");
+        textMeshProUGUI.text = timerSpan.ToString(@"mm\:ss");
     }
 }
 // https://stackoverflow.com/questions/463642/how-can-i-convert-seconds-into-hourminutessecondsmilliseconds-time
 // https://stackoverflow.com/questions/6356351/formatting-a-float-to-2-decimal-places
+//textMeshProUGUI.text = timerSpan.ToString(@"mm\:ss\:ff");
