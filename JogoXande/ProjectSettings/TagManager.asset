@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tile Map
+    uniqueID: 269119599
+    locked: 0
   - name: "Decora\xE7\xE3o"
     uniqueID: 3853574127
     locked: 0
