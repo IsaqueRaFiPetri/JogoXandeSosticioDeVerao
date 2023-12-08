@@ -1,12 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 public class timerBruno : MonoBehaviour
 {
-    static float timer = 300;
+    static float timer = 10;
     TimeSpan timerSpan = TimeSpan.FromSeconds(timer);
     public TextMeshProUGUI textMeshProUGUI;
     public GameObject derrotaPainel;
@@ -22,6 +21,25 @@ public class timerBruno : MonoBehaviour
 
         }
         textMeshProUGUI.text = timerSpan.ToString(@"mm\:ss");
+    }
+    public void RestartBTN()
+    {
+        SceneManager.LoadScene("GameScene");
+        Time.timeScale = 1;
+        derrotaPainel.SetActive(false);
+        timer = 10;
+    }
+    public void MenuBTN()
+    {
+        SceneManager.LoadScene("MenuScene");
+        Time.timeScale = 1;
+        derrotaPainel.SetActive(false);
+        timer = 10;
+    }
+    public void QuitBTN()
+    {
+        Application.Quit();
+        Debug.Log("Saiu");
     }
 }
 // https://stackoverflow.com/questions/463642/how-can-i-convert-seconds-into-hourminutessecondsmilliseconds-time
