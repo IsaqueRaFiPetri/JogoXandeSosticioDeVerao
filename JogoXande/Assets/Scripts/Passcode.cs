@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Passcode : MonoBehaviour
 {
-    string code = "2112";
+    string code = "151223";
     string Nr = null;
     int NrIndex = 0;
     string alpha;
@@ -18,3 +18,4 @@ public class Passcode : MonoBehaviour
         UiText.text = Nr;
     }
 }
+// video de referencia: https://www.youtube.com/watch?v=VRbRxiCNR2s
