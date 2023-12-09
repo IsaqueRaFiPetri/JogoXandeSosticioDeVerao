@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VerQuadro : MonoBehaviour
+public class VerPainel : MonoBehaviour
 {
-    public GameObject quadroPainel;
+    public GameObject painel;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        quadroPainel.SetActive(true);
+        painel.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        quadroPainel.SetActive(false);
+        painel.SetActive(false);
     }
 }

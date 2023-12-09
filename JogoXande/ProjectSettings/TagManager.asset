@@ -47,6 +47,9 @@ TagManager:
   - name: "Decora\xE7\xE3o"
     uniqueID: 3853574127
     locked: 0
+  - name: "Decora\xE7\xE3o2"
+    uniqueID: 3650608877
+    locked: 0
   - name: Player
     uniqueID: 3869602707
     locked: 0
