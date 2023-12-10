@@ -11,6 +11,7 @@ public class Passcode : MonoBehaviour
     int NrIndex = 0;
     string alpha;
     public Text UiText = null;
+    public GameObject painelVitoria;
 
     public void CodeFunction(string Numbers)
     {
@@ -24,6 +25,7 @@ public class Passcode : MonoBehaviour
         if(Nr == code)
         {
             Debug.Log("It is working");
+            painelVitoria.SetActive(true);
         }
     }
     public void Delete()

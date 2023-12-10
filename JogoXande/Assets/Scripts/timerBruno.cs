@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class timerBruno : MonoBehaviour
 {
-    static float timer = 10;
+    static float timer =300;
     TimeSpan timerSpan = TimeSpan.FromSeconds(timer);
     public TextMeshProUGUI textMeshProUGUI;
     public GameObject derrotaPainel;
@@ -27,14 +27,14 @@ public class timerBruno : MonoBehaviour
         SceneManager.LoadScene("GameScene");
         Time.timeScale = 1;
         derrotaPainel.SetActive(false);
-        timer = 10;
+        timer = 300;
     }
     public void MenuBTN()
     {
         SceneManager.LoadScene("MenuScene");
         Time.timeScale = 1;
         derrotaPainel.SetActive(false);
-        timer = 10;
+        timer = 300;
     }
     public void QuitBTN()
     {

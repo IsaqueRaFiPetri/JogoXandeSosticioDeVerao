@@ -50,8 +50,14 @@ TagManager:
   - name: "Decora\xE7\xE3o2"
     uniqueID: 3650608877
     locked: 0
+  - name: "Decora\xE7\xE3o 3"
+    uniqueID: 2662771895
+    locked: 0
   - name: Player
     uniqueID: 3869602707
+    locked: 0
+  - name: "Decora\xE7\xE3oMaisPlayer"
+    uniqueID: 280134383
     locked: 0
   - name: HUD
     uniqueID: 3559496587
