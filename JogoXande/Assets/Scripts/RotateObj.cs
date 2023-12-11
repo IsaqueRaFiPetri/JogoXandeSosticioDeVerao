@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RotateObj : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class RotateObj : MonoBehaviour
     private Vector3 screenPos;
     private float angleOffset;
     private Collider2D col;
+    public Text textAngle;
 
     private void Start()
     {
@@ -36,8 +38,9 @@ public class RotateObj : MonoBehaviour
                 float angle = Mathf.Atan2(vec3.y, vec3.x) * Mathf.Rad2Deg;
                 transform.eulerAngles = new Vector3(0, 0, angle + angleOffset);
             }
-        }
+        } 
     }
 }
 
 //video de referencia: https://www.youtube.com/watch?v=0eM5molItfE
+//para o Quartenion: https://docs.unity3d.com/ScriptReference/Quaternion-eulerAngles.html

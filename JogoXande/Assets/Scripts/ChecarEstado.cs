@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChecarEstado : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class ChecarEstado : MonoBehaviour
             if (soma >= objetos.Length)
             {
                 complete = true;
+                SceneManager.LoadScene("GameScene");
             }
         }
     }
