@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e49264e92211ac4fb28b30951a23991
+guid: 93ddef3fc39e1e44f85357217e6653e3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AsteSemPlaneta_0
+      name: "Bot\xE3oobjetivo_0"
       rect:
         serializedVersion: 2
-        x: 510
-        y: 50
-        width: 800
-        height: 1350
+        x: 48
+        y: 160
+        width: 296
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cc5c98c89dfb5f4db2a81ebf21d8852
-      internalID: -1623873694
+      spriteID: 4fb7e54ef80ce594cb92417b3a9b89b9
+      internalID: 987309716
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AsteSemPlaneta_0: -1623873694
+      "Bot\xE3oobjetivo_0": 987309716
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

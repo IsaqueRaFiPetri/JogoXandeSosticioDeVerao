@@ -53,6 +53,12 @@ TagManager:
   - name: "Decora\xE7\xE3o 3"
     uniqueID: 2662771895
     locked: 0
+  - name: Conector
+    uniqueID: 3330092107
+    locked: 0
+  - name: "Pe\xE7a"
+    uniqueID: 1218112731
+    locked: 0
   - name: Player
     uniqueID: 3869602707
     locked: 0
