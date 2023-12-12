@@ -9,12 +9,10 @@ public class VerObjetivo : MonoBehaviour
     public void AbrirObjetivo()
     {
         painelObjetivos.SetActive(true);
-        Time.timeScale = 0f;
     }
 
     public void FecharObjetivos()
     {
         painelObjetivos.SetActive(false);
-        Time.timeScale = 1f;
     }
 }
